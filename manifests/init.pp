@@ -61,6 +61,7 @@ class nginx (
   $proxy_redirect                 = undef,
   $proxy_send_timeout             = undef,
   $proxy_set_header               = undef,
+  $set_real_ip_from               = undef,
   $sendfile                       = undef,
   $server_tokens                  = undef,
   $spdy                           = undef,
